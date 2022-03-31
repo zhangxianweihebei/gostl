@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/array"
+	"github.com/zhangxianweihebei/gostl/ds/array"
 )
 
 func main() {

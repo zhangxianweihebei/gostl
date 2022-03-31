@@ -1,7 +1,7 @@
 package priorityqueue
 
 import (
-	. "github.com/liyue201/gostl/utils/comparator"
+	. "github.com/zhangxianweihebei/gostl/utils/comparator"
 	"testing"
 )
 

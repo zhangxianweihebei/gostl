@@ -1,8 +1,8 @@
 package rbtree
 
 import (
-	"github.com/liyue201/gostl/utils/comparator"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
 	"math/rand"
 	"testing"
 	"time"
@@ -24,7 +24,7 @@ func TestRbTeeFind(t *testing.T) {
 		iter := tree.FindLowerBoundNode(i)
 		assert.Equal(t, i+10000, iter.Value())
 
-		iter2 := tree.FindUpperBoundNode(i-1)
+		iter2 := tree.FindUpperBoundNode(i - 1)
 		assert.Equal(t, i+10000, iter2.Value())
 	}
 	for i := 0; i < 10; i++ {
@@ -45,7 +45,7 @@ func TestRbTeeFind(t *testing.T) {
 	}
 
 	for i := 0; i < 10; i++ {
-		iter := tree.FindUpperBoundNode(i-1)
+		iter := tree.FindUpperBoundNode(i - 1)
 		count := 0
 		for n := iter; n != nil; n = n.Next() {
 			if n.key != i {

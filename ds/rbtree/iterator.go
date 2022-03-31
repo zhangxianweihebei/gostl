@@ -1,7 +1,7 @@
 package rbtree
 
 import (
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 // RbTreeIterator is an iterator implementation of RbTree

@@ -2,8 +2,8 @@ package priorityqueue
 
 import (
 	"container/heap"
-	"github.com/liyue201/gostl/utils/comparator"
-	"github.com/liyue201/gostl/utils/sync"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/utils/sync"
 	gosync "sync"
 )
 

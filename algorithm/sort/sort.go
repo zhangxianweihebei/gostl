@@ -2,8 +2,8 @@ package sort
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/utils/comparator"
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 //Sort sorts the container by using quick sort

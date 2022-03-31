@@ -2,8 +2,8 @@ package bidlist
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/container"
-	"github.com/liyue201/gostl/utils/visitor"
+	"github.com/zhangxianweihebei/gostl/ds/container"
+	"github.com/zhangxianweihebei/gostl/utils/visitor"
 )
 
 // List is an implementation of Container

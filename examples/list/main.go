@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/list/bidlist"
-	"github.com/liyue201/gostl/ds/list/simplelist"
+	"github.com/zhangxianweihebei/gostl/ds/list/bidlist"
+	"github.com/zhangxianweihebei/gostl/ds/list/simplelist"
 )
 
 func simpleList() {

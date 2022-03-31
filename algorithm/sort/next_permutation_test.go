@@ -1,8 +1,8 @@
 package sort
 
 import (
-	"github.com/liyue201/gostl/ds/slice"
-	"github.com/liyue201/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/ds/slice"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
 	"testing"
 )
 

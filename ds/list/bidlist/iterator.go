@@ -1,6 +1,6 @@
 package bidlist
 
-import "github.com/liyue201/gostl/utils/iterator"
+import "github.com/zhangxianweihebei/gostl/utils/iterator"
 
 //ListIterator is an implementation of BidIterator
 var _ iterator.BidIterator = (*ListIterator)(nil)

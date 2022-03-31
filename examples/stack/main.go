@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/stack"
+	"github.com/zhangxianweihebei/gostl/ds/stack"
 	"sync"
 	"time"
 )

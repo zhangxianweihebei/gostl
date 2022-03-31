@@ -1,6 +1,6 @@
 package deque
 
-// Pool is a memory pool for holding Segments
+// Pool is a memory Pool for holding Segments
 type Pool struct {
 	segs []*Segment
 }

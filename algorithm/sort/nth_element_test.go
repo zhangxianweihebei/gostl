@@ -1,7 +1,7 @@
 package sort
 
 import (
-	"github.com/liyue201/gostl/ds/slice"
+	"github.com/zhangxianweihebei/gostl/ds/slice"
 	"math/rand"
 	"testing"
 	"time"

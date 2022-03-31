@@ -2,7 +2,7 @@ package vector
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 // Options holds the Vector's options

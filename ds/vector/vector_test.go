@@ -2,9 +2,9 @@ package vector
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/algorithm/sort"
-	"github.com/liyue201/gostl/utils/comparator"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangxianweihebei/gostl/algorithm/sort"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
 	"testing"
 )
 

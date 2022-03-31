@@ -1,8 +1,8 @@
 package algorithm
 
 import (
-	"github.com/liyue201/gostl/utils/comparator"
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 // Count returns the number of elements that their value is equal to value in range [first, last)
@@ -55,7 +55,6 @@ func FindIf(first, last iterator.ConstIterator, f func(iterator.ConstIterator) b
 	return last
 }
 
-
 // MaxElement returns an Iterator to the largest element in the range [first, last). If several elements in the range are equivalent to the largest element, returns the iterator to the first such element. Returns last if the range is empty.
 func MaxElement(first, last iterator.ConstIterator, cmps ...comparator.Comparator) iterator.ConstIterator {
 	cmp := comparator.BuiltinTypeComparator
@@ -65,10 +64,10 @@ func MaxElement(first, last iterator.ConstIterator, cmps ...comparator.Comparato
 	if first.Equal(last) {
 		return last
 	}
-	largest := first;
+	largest := first
 	for iter := first.Clone(); !iter.Equal(last); iter.Next() {
 		if cmp(iter.Value(), largest.Value()) > 0 {
-			largest = iter.Clone();
+			largest = iter.Clone()
 		}
 	}
 	return largest
@@ -83,10 +82,10 @@ func MinElement(first, last iterator.ConstIterator, cmps ...comparator.Comparato
 	if first.Equal(last) {
 		return last
 	}
-	smallest := first;
+	smallest := first
 	for iter := first.Clone(); !iter.Equal(last); iter.Next() {
 		if cmp(iter.Value(), smallest.Value()) < 0 {
-			smallest = iter.Clone();
+			smallest = iter.Clone()
 		}
 	}
 	return smallest

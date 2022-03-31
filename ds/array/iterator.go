@@ -1,7 +1,7 @@
 package array
 
 import (
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 //ArrayIterator is an implementation of RandomAccessIterator

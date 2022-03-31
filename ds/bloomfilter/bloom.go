@@ -3,9 +3,9 @@ package bloom
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/liyue201/gostl/algorithm/hash"
-	"github.com/liyue201/gostl/ds/bitmap"
-	"github.com/liyue201/gostl/utils/sync"
+	"github.com/zhangxianweihebei/gostl/algorithm/hash"
+	"github.com/zhangxianweihebei/gostl/ds/bitmap"
+	"github.com/zhangxianweihebei/gostl/utils/sync"
 	"math"
 	gosync "sync"
 )

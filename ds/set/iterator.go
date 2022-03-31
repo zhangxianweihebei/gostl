@@ -1,8 +1,8 @@
 package set
 
 import (
-	"github.com/liyue201/gostl/ds/rbtree"
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/ds/rbtree"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 // SetIterator is an iterator implementation of set

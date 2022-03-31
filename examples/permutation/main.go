@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/algorithm/sort"
-	"github.com/liyue201/gostl/ds/slice"
-	"github.com/liyue201/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/algorithm/sort"
+	"github.com/zhangxianweihebei/gostl/ds/slice"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
 )
 
 func main() {

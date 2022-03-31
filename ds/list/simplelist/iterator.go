@@ -1,6 +1,6 @@
 package simplelist
 
-import "github.com/liyue201/gostl/utils/iterator"
+import "github.com/zhangxianweihebei/gostl/utils/iterator"
 
 //ListIterator is an implementation of Iterator
 var _ iterator.Iterator = (*ListIterator)(nil)

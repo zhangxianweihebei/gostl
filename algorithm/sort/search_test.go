@@ -1,9 +1,9 @@
 package sort
 
 import (
-	"github.com/liyue201/gostl/ds/deque"
-	"github.com/liyue201/gostl/utils/comparator"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangxianweihebei/gostl/ds/deque"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
 	"testing"
 )
 

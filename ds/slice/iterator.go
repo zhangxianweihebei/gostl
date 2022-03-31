@@ -1,6 +1,6 @@
 package slice
 
-import "github.com/liyue201/gostl/utils/iterator"
+import "github.com/zhangxianweihebei/gostl/utils/iterator"
 
 // SliceIterator is a implementation of RandomAccessIterator
 var _ iterator.RandomAccessIterator = (*SliceIterator)(nil)

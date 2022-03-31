@@ -1,8 +1,8 @@
 package sort
 
 import (
-	"github.com/liyue201/gostl/utils/comparator"
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 // NthElement Rearranges the elements in the range [first,last), in such a way that the element at the nth position is the element that would be in that position in a sorted sequence

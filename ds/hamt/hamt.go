@@ -1,8 +1,8 @@
 package hamt
 
 import (
-	"github.com/liyue201/gostl/utils/sync"
-	"github.com/liyue201/gostl/utils/visitor"
+	"github.com/zhangxianweihebei/gostl/utils/sync"
+	"github.com/zhangxianweihebei/gostl/utils/visitor"
 	"hash/fnv"
 	"math/bits"
 	gosync "sync"

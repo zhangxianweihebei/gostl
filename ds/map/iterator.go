@@ -1,8 +1,8 @@
 package treemap
 
 import (
-	"github.com/liyue201/gostl/ds/rbtree"
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/ds/rbtree"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 // MapIterator is a map iterator

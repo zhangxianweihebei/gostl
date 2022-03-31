@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/algorithm"
-	"github.com/liyue201/gostl/ds/deque"
+	"github.com/zhangxianweihebei/gostl/algorithm"
+	"github.com/zhangxianweihebei/gostl/ds/deque"
 )
 
 func main() {

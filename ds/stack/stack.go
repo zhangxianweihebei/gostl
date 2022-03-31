@@ -1,10 +1,10 @@
 package stack
 
 import (
-	"github.com/liyue201/gostl/ds/container"
-	"github.com/liyue201/gostl/ds/deque"
-	"github.com/liyue201/gostl/ds/list/bidlist"
-	"github.com/liyue201/gostl/utils/sync"
+	"github.com/zhangxianweihebei/gostl/ds/container"
+	"github.com/zhangxianweihebei/gostl/ds/deque"
+	"github.com/zhangxianweihebei/gostl/ds/list/bidlist"
+	"github.com/zhangxianweihebei/gostl/utils/sync"
 	gosync "sync"
 )
 

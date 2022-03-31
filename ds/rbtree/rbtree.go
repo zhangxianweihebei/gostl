@@ -2,8 +2,8 @@ package rbtree
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/utils/comparator"
-	"github.com/liyue201/gostl/utils/visitor"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/utils/visitor"
 )
 
 var (

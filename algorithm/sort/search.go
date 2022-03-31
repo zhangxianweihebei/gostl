@@ -1,8 +1,8 @@
 package sort
 
 import (
-	"github.com/liyue201/gostl/utils/comparator"
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 //BinarySearch returns true if exist an element witch value is val in the range [first, last), or false if not exist

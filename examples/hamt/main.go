@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/hamt"
+	"github.com/zhangxianweihebei/gostl/ds/hamt"
 )
 
 func main() {

@@ -1,8 +1,8 @@
 package sort
 
 import (
-	"github.com/liyue201/gostl/ds/vector"
-	"github.com/liyue201/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/ds/vector"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
 	"math/rand"
 	"testing"
 	"time"

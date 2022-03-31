@@ -2,7 +2,7 @@ package simplelist
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/utils/visitor"
+	"github.com/zhangxianweihebei/gostl/utils/visitor"
 )
 
 // Node is a list node

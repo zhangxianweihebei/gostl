@@ -1,7 +1,7 @@
 package deque
 
 import (
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 // DequeIterator is an implementation of RandomAccessIterator

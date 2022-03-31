@@ -1,7 +1,7 @@
 package algorithm
 
 import (
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 // Swap swaps the value of two iterator

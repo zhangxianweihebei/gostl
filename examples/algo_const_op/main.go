@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/algorithm"
-	"github.com/liyue201/gostl/ds/deque"
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/algorithm"
+	"github.com/zhangxianweihebei/gostl/ds/deque"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 func isEven(iter iterator.ConstIterator) bool {

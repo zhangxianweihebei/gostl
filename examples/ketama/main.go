@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/ketama"
+	"github.com/zhangxianweihebei/gostl/ds/ketama"
 )
 
 func main() {

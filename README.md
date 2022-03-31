@@ -1,7 +1,7 @@
 # GoSTL
 
-[![GoDoc](https://godoc.org/github.com/liyue201/gostl?status.svg)](https://godoc.org/github.com/liyue201/gostl)
-[![Goreportcard](https://goreportcard.com/badge/github.com/liyue201/gostl)](https://goreportcard.com/report/github.com/liyue201/gostl)
+[![GoDoc](https://godoc.org/github.com/zhangxianweihebei/gostl?status.svg)](https://godoc.org/github.com/zhangxianweihebei/gostl)
+[![Goreportcard](https://goreportcard.com/badge/github.com/zhangxianweihebei/gostl)](https://goreportcard.com/report/github.com/zhangxianweihebei/gostl)
 [![Build Status](https://travis-ci.org/liyue201/gostl.svg?branch=master)](https://travis-ci.org/liyue201/gostl)
 [![Coverall](https://coveralls.io/repos/github/liyue201/gostl/badge.svg?branch=master)](https://coveralls.io/github/liyue201/gostl)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](/LICENSE)
@@ -56,9 +56,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/algorithm/sort"
-	"github.com/liyue201/gostl/ds/slice"
-	"github.com/liyue201/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/algorithm/sort"
+	"github.com/zhangxianweihebei/gostl/ds/slice"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
 )
 
 func main() {
@@ -86,7 +86,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/array"
+	"github.com/zhangxianweihebei/gostl/ds/array"
 )
 
 func main() {
@@ -114,9 +114,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/algorithm/sort"
-	"github.com/liyue201/gostl/ds/vector"
-	"github.com/liyue201/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/algorithm/sort"
+	"github.com/zhangxianweihebei/gostl/ds/vector"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
 )
 
 func main() {
@@ -147,7 +147,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/list/simplelist"
+	"github.com/zhangxianweihebei/gostl/ds/list/simplelist"
 )
 
 func main() {
@@ -171,7 +171,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/list/bidlist"
+	"github.com/zhangxianweihebei/gostl/ds/list/bidlist"
 )
 
 func main() {
@@ -199,8 +199,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/algorithm/sort"
-	"github.com/liyue201/gostl/ds/deque"
+	"github.com/zhangxianweihebei/gostl/algorithm/sort"
+	"github.com/zhangxianweihebei/gostl/ds/deque"
 )
 
 func main() {
@@ -228,7 +228,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/queue"
+	"github.com/zhangxianweihebei/gostl/ds/queue"
 	"sync"
 	"time"
 )
@@ -302,8 +302,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/priorityqueue"
-	"github.com/liyue201/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/ds/priorityqueue"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
 )
 
 func main() {
@@ -329,7 +329,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/stack"
+	"github.com/zhangxianweihebei/gostl/ds/stack"
 	"sync"
 	"time"
 )
@@ -404,7 +404,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/rbtree"
+	"github.com/zhangxianweihebei/gostl/ds/rbtree"
 )
 
 func main()  {
@@ -431,7 +431,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/map"
+	"github.com/zhangxianweihebei/gostl/ds/map"
 )
 
 func main() {
@@ -455,7 +455,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/set"
+	"github.com/zhangxianweihebei/gostl/ds/set"
 )
 
 func main()  {
@@ -485,7 +485,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/bitmap"
+	"github.com/zhangxianweihebei/gostl/ds/bitmap"
 )
 
 func main() {
@@ -507,7 +507,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/bloomfilter"
+	"github.com/zhangxianweihebei/gostl/ds/bloomfilter"
 )
 
 func main() {
@@ -528,7 +528,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/hamt"
+	"github.com/zhangxianweihebei/gostl/ds/hamt"
 )
 
 func main() {
@@ -552,7 +552,7 @@ Consistent hash Ketama algorithm, using 64 bit hash function and map storage, ha
 package main
 
 import (
-	"github.com/liyue201/gostl/ds/ketama"
+	"github.com/zhangxianweihebei/gostl/ds/ketama"
 	"fmt"
 )
 
@@ -575,7 +575,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/skiplist"
+	"github.com/zhangxianweihebei/gostl/ds/skiplist"
 )
 
 func main()  {
@@ -605,9 +605,9 @@ Upperbound: find the first data larger than the element and return the iterator 
 package main
 
 import (
-	"github.com/liyue201/gostl/algorithm/sort"
-	"github.com/liyue201/gostl/utils/comparator"
-	"github.com/liyue201/gostl/ds/slice"
+	"github.com/zhangxianweihebei/gostl/algorithm/sort"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/ds/slice"
 	"fmt"
 )
 
@@ -652,9 +652,9 @@ This function modifies the data in the iterator range to the next sort combinati
 package main
 
 import (
-	"github.com/liyue201/gostl/algorithm/sort"
-	"github.com/liyue201/gostl/ds/slice"
-	"github.com/liyue201/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/algorithm/sort"
+	"github.com/zhangxianweihebei/gostl/ds/slice"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
 	"fmt"
 )
 
@@ -689,8 +689,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/algorithm/sort"
-	"github.com/liyue201/gostl/ds/deque"
+	"github.com/zhangxianweihebei/gostl/algorithm/sort"
+	"github.com/zhangxianweihebei/gostl/ds/deque"
 )
 
 func main() {
@@ -720,8 +720,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/algorithm"
-	"github.com/liyue201/gostl/ds/deque"
+	"github.com/zhangxianweihebei/gostl/algorithm"
+	"github.com/zhangxianweihebei/gostl/ds/deque"
 )
 
 func main() {
@@ -753,9 +753,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/algorithm"
-	"github.com/liyue201/gostl/ds/deque"
-	"github.com/liyue201/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/algorithm"
+	"github.com/zhangxianweihebei/gostl/ds/deque"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
 )
 
 func isEven(iter iterator.ConstIterator) bool {

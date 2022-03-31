@@ -1,11 +1,11 @@
 package treemap
 
 import (
-	"github.com/liyue201/gostl/ds/rbtree"
-	"github.com/liyue201/gostl/utils/comparator"
-	"github.com/liyue201/gostl/utils/iterator"
-	"github.com/liyue201/gostl/utils/sync"
-	"github.com/liyue201/gostl/utils/visitor"
+	"github.com/zhangxianweihebei/gostl/ds/rbtree"
+	"github.com/zhangxianweihebei/gostl/utils/comparator"
+	"github.com/zhangxianweihebei/gostl/utils/iterator"
+	"github.com/zhangxianweihebei/gostl/utils/sync"
+	"github.com/zhangxianweihebei/gostl/utils/visitor"
 	gosync "sync"
 )
 

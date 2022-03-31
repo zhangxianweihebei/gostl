@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/liyue201/gostl/ds/skiplist"
+	"github.com/zhangxianweihebei/gostl/ds/skiplist"
 )
 
 func main() {
